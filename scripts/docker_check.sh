@@ -5,7 +5,7 @@ set -e
 # In other words, if RELEASE variable was updated in the Makefile.
 echo "check if the tag wasn't pushed before"
 
-REPOSITORY=shekodn
+REPOSITORY=marcegarzab
 IMAGE=trendlit
 TAG=`make version`
 
