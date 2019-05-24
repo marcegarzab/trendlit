@@ -3,7 +3,7 @@ set -e
 
 echo "build image"
 
-REPOSITORY=shekodn
+REPOSITORY=marcegarzab
 IMAGE=trendlit
 TAG=`make version`
 HASH=`git log --format="%H" -n 1 | cut -c1-6`
